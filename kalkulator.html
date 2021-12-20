@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>My first Javascript program</title>
+      <meta charset="utf-8" />
+      <link href="css.calculator.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class = "top">
+        <h1 align = "center">My <strong>first</strong> Javascript calculator</h1>
+        </div>
+        <div class = "table">
+        <table align = "center">
+          <tr align = "center">
+              <th colspan = "4"><input type="text" id="result" placeholder="0" disabled></th> 
+          </tr>
+          <tr align = "center">
+              <th colspan = "1"><button onclick="calculate(1)">1</button></th>
+              <th colspan = "1"><button onclick="calculate(2)">2</button></th>
+              <th colspan = "1"><button onclick="calculate(3)">3</button></th>
+              <th colspan = "1"><button onclick="calculate('*')">*</button></th>
+          </tr>
+          <tr align = "center">
+            <th colspan = "1"><button onclick="calculate(4)">4</button></th>
+            <th colspan = "1"><button onclick="calculate(5)">5</button></th>
+            <th colspan = "1"><button onclick="calculate(6)">6</button></th>
+            <th colspan = "1"><button onclick="calculate('-')">-</button></th>
+        </tr>
+        <tr align = "center">
+            <th colspan = "1"><button onclick="calculate(7)">7</button></th>
+            <th colspan = "1"><button onclick="calculate(8)">8</button></th>
+            <th colspan = "1"><button onclick="calculate(9)">9</button></th>
+            <th colspan = "1"><button onclick="calculate('+')">+</button></th>
+        </tr>
+        <tr align = "center">
+            <th colspan = "1"><button onclick="calculate('%')">%</button></th>
+            <th colspan = "1"><button onclick="calculate(0)">0</button></th>
+            <th colspan = "1"><button onclick="clearScore()">C</button></th>
+            <th colspan = "1"><button class="equal" onclick="score()">=</button></th>
+        </tr>
+        </table> 
+        <script src="calulator.js"></script>  
+        </div>
+    </body>
+</html>

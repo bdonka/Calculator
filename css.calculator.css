@@ -1,0 +1,22 @@
+table {
+    font-size: 300%;
+    width:50%;
+}
+
+th {
+    background-color:darkseagreen;
+    border-spacing: 10px;
+}
+
+button {
+    color:rgb(12, 54, 12);
+    font-size: 150%;
+    width: 100%;
+}
+
+input {
+    color:rgb(12, 54, 12);
+    font-size: 150%;
+    width: 100%;
+    text-align: center;
+}
